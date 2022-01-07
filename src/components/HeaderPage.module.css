@@ -1,0 +1,25 @@
+.HeaderContainer{
+    width: 100%;
+    color: white;
+    font-family: "B612";
+}
+
+.HeaderContainer>h1 {
+    font-size: 148px;
+}
+
+.HeaderContainer>h2 {
+    margin-top: 0px;
+    font-size: 48px;
+}
+
+@media screen and (max-width: 640px) {
+    .HeaderContainer>h1 {
+        font-size: 48px;
+    }
+    
+    .HeaderContainer>h2 {
+        font-size: 36px;
+    }
+    
+}
